@@ -27,11 +27,22 @@
 
 .resume-section {
   background-color: #4e4e4e;
-  min-height: 190vh;
+  /* min-height: 180vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
+}
+
+.skills-section {
+  background-color: #4e4e4e;
+  /* min-height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .resume-main-titles {
@@ -46,6 +57,7 @@
   font-size: 20px;
   text-align:left;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .resume-tertiary-titles {
@@ -53,13 +65,14 @@
   font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
+  margin-bottom: 0px;
 }
 
 .resume-text {
-  color: rgb(255, 255, 255) !important;
+  color: rgba(221, 221, 221, 0.849) !important;
   font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: justify;
+  padding-bottom: 10px;
 }
 
 
@@ -204,19 +217,34 @@
 }
 
 .progress-line .html {
-  width: 80%;
+  width: 85%;
 }
 .progress-line .css {
-  width: 70%;
+  width: 75%;
 }
 .progress-line .bootstrap {
-  width: 82%;
+  width: 70%;
 }
-.progress-line .javascript {
-  width: 62%;
+.progress-line .test-automation {
+  width: 80%;
 }
-.progress-line .c {
+.progress-line .angular {
   width: 90%;
+}
+.progress-line .typescript {
+  width: 90%;
+}
+.progress-line .react {
+  width: 50%;
+}
+.progress-line .python {
+  width: 40%;
+}
+.progress-line .java {
+  width: 40%;
+}
+.progress-line .matlab {
+  width: 60%;
 }
 
 .bar .progress-line span::before {
