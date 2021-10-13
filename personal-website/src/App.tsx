@@ -77,6 +77,23 @@ function App() {
           </div>
         </div>
       </header>
+      <section id="quote" className="quote-section">
+        <div className="container">
+          <div className="row">
+            <div style={{ textAlign: "center" }} className="col-lg-4 col-sm-1">
+              <h2>GRIT (n.)</h2>
+            </div>
+            <div className="col-lg-7">
+              <div>
+                <h3 style={{ textAlign: "left" }}>
+                  "Courage and determination despite difficulty." <br></br> "Firmness of character; indomitable spirit."
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div style={{ backgroundColor: "#243625", height: "25vw"}}></div>
       <section id="about" className="about-section">
         <div className="container">
           <div className="row">
@@ -223,7 +240,7 @@ function App() {
             </div>
             <div className="col-lg-8">
               <div>
-                <div style={{ paddingLeft: "0px" , paddingTop: "0px"}} className="container">
+                <div style={{ paddingLeft: "0px", paddingTop: "0px" }} className="container">
                   <div className="skills-bar">
                     <div className="bar">
                       <div className="info">ANGULAR</div>
@@ -311,7 +328,7 @@ function App() {
           <div className="row">
             <h2 className="project-main-titles">Projects and Papers</h2>
           </div>
-          <div style={{ paddingTop: "25px", paddingBottom: "25px"}}>
+          <div style={{ paddingTop: "25px", paddingBottom: "25px" }}>
             <a href="https://github.com/Caitlyn-Kloeckl/resume-documents/raw/main/Artificial-Intelligence-Final-Paper.pdf">
               <span className="image-box" style={{ backgroundImage: `url(${AIPaper})` }}>
                 <span className="caption">
