@@ -3,6 +3,9 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import profileImage from "./profile-image.jpg";
+import AIPaper from "./Artificial-Intelligence-Final-Paper.jpg";
+import ComputationalPaper from "./Computational-Physics-Final-Paper.jpg";
+import ExperimentalPaper from "./Experimental-Physics-Final-Paper.jpg";
 
 function App() {
   return (
@@ -123,7 +126,7 @@ function App() {
         </div>
       </section>
       <section id="resume" className="resume-section">
-        <div className="container">
+        <div className="container" style={{ paddingTop: "25px", paddingBottom: "25px", paddingLeft: "25px" }}>
           <div className="row">
             <div className="col-lg-4 col-sm-1">
               <h2 className="resume-main-titles">Education</h2>
@@ -143,7 +146,7 @@ function App() {
               </div>
               <div>
                 <h3 className="resume-secondary-titles">
-                Normandale Community College
+                  Normandale Community College
                 </h3>
                 <p className="resume-tertiary-titles">
                   <i>PSEO (college in high school)</i> • September 2017 – December 2018
@@ -156,7 +159,7 @@ function App() {
           </div>
         </div>
         <hr className="line-resume"></hr>
-        <div style={{ paddingTop: "25px", paddingBottom: "25px" }} className="container">
+        <div className="container" style={{ paddingTop: "25px", paddingBottom: "25px", paddingLeft: "25px" }}>
           <div className="row">
             <div className="col-lg-4 col-sm-1">
               <h2 className="resume-main-titles">
@@ -213,14 +216,14 @@ function App() {
         <hr className="line-resume"></hr>
       </section>
       <section id="skills" className="skills-section">
-        <div className="container">
+        <div className="container" style={{ paddingTop: "25px", paddingBottom: "25px", paddingLeft: "25px" }}>
           <div className="row">
             <div style={{ paddingTop: "25px" }} className="col-lg-4 col-sm-1">
               <h2 className="resume-main-titles">Skills</h2>
             </div>
             <div className="col-lg-8">
               <div>
-                <div style={{ paddingLeft: "0px" }} className="container">
+                <div style={{ paddingLeft: "0px" , paddingTop: "0px"}} className="container">
                   <div className="skills-bar">
                     <div className="bar">
                       <div className="info">ANGULAR</div>
@@ -304,9 +307,37 @@ function App() {
         </div>
       </section>
       <section id="projects" className="projects-section">
-
-
-        
+        <div className="container" >
+          <div className="row">
+            <h2 className="project-main-titles">Projects and Papers</h2>
+          </div>
+          <div style={{ paddingTop: "25px", paddingBottom: "25px"}}>
+            <a href="https://github.com/Caitlyn-Kloeckl/resume-documents/raw/main/Artificial-Intelligence-Final-Paper.pdf">
+              <span className="image-box" style={{ backgroundImage: `url(${AIPaper})` }}>
+                <span className="caption">
+                  <h3>Algorithms for Solving the<br></br> Game of <br></br>Sudoku</h3>
+                  <h5>CSCI 4511W</h5>
+                </span>
+              </span>
+            </a>
+            <a href="https://github.com/Caitlyn-Kloeckl/resume-documents/raw/main/Computational-Physics-Final-Paper.pdf">
+              <span className="image-box" style={{ backgroundImage: `url(${ComputationalPaper})` }}>
+                <span className="caption">
+                  <h3>The Lorenz <br></br>System</h3>
+                  <h5>PHYS 4041</h5>
+                </span>
+              </span>
+            </a>
+            <a href="https://github.com/Caitlyn-Kloeckl/resume-documents/raw/main/Experimental-Physics-Final-Paper.pdf">
+              <span className="image-box" style={{ backgroundImage: `url(${ExperimentalPaper})` }}>
+                <span className="caption">
+                  <h3>Measuring the <br></br>Speed of Light Using a Helium Neon Laser</h3>
+                  <h5>PHYS 4052W</h5>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
       </section>
     </div>
   );
