@@ -1,0 +1,124 @@
+.skills_main_titles {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.skills_bar {
+    padding: 0px;
+}
+
+.skills_bar .bar {
+    margin: 25px 0;
+}
+
+.skills_bar .bar .info {
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+}
+
+.skills_bar .bar .progress_line {
+    position: relative;
+    height: 10px;
+    width: 550px;
+    left: 0px;
+    top: 0px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress_line span {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #002352;
+    height: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    z-index: 1000;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress_line .html {
+    width: 85%;
+}
+
+.progress_line .css {
+    width: 75%;
+}
+
+.progress_line .bootstrap {
+    width: 70%;
+}
+
+.progress_line .test_automation {
+    width: 80%;
+}
+
+.progress_line .angular {
+    width: 90%;
+}
+
+.progress_line .typescript {
+    width: 90%;
+}
+
+.progress_line .react {
+    width: 50%;
+}
+
+.progress_line .python {
+    width: 40%;
+}
+
+.progress_line .java {
+    width: 40%;
+}
+
+.progress_line .matlab {
+    width: 60%;
+}
+
+.bar .progress_line span::before {
+    position: absolute;
+    height: 0;
+    right: 0;
+    top: -14px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-style: #f0f0f0;
+    border-top-color: #07374a;
+}
+
+.bar .progress_line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #f0f0f0;
+    background: #07374a;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+@media (max-width: 700px) {
+    .skills {
+        width: 80%;
+    }
+    .skills_bar .bar .progress_line {
+        width: 100%;
+    }
+}
