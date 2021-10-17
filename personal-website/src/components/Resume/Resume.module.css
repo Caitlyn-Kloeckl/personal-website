@@ -1,0 +1,38 @@
+.resume_main_titles {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.resume_secondary_titles {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.resume_tertiary_titles {
+    color: rgba(221, 221, 221, 0.849) !important;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.resume_text {
+    color: rgba(221, 221, 221, 0.849) !important;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+
+.line_resume {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 90%;
+    background-color: #ffffff;
+    height: 1px;
+}
