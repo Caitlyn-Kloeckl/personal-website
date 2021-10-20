@@ -3,8 +3,8 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import styles from './Header.module.css';
 
 const Header = () => (
-  <div>
-    <Navbar>
+  <div className={styles.header_background}>
+    <Navbar className={styles.navbar_bar}>
       <Container className={styles.navbar}>
         <Nav>
           <Nav.Link className={styles.navbar_text} href="#home">
@@ -27,7 +27,7 @@ const Header = () => (
     </Navbar>
     <header id="home" className={styles.title_section}>
       <h1 className={styles.main_title}>Caitlyn Kloeckl</h1>
-      <h4>Software Engineer, Physics Major, Photographer, Plant Lover. </h4>
+      <h4>Software Engineer, Physics Major, Photographer, Outdoor Enthusiast. </h4>
       <hr className="line"></hr>
       <div className="col-lg-8">
         <div
@@ -42,7 +42,7 @@ const Header = () => (
           <a
             href="https://www.linkedin.com/in/caitlyn-kloeckl/"
             target="_blank"
-            className="custom-button"
+            className="custom-button-header"
           >
             <i
               style={{ paddingRight: "20px" }}
@@ -63,7 +63,7 @@ const Header = () => (
           <a
             href="https://www.caitlynkloecklphotography.com/"
             target="_blank"
-            className="custom-button"
+            className="custom-button-header"
           >
             <i style={{ paddingRight: "20px" }} className="fa fa-camera"></i>
             Photography

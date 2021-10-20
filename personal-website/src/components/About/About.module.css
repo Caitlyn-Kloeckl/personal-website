@@ -1,6 +1,13 @@
-.about_text {
+.about_text_noindent {
     color: rgba(255, 255, 255, 0.849) !important;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
+}
+.about_text_indent{
+    color: rgba(255, 255, 255, 0.849) !important;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 20px;
 }
