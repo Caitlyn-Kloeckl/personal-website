@@ -1,10 +1,9 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import styles from './Resume.module.css';
 
 const Resume = () => (
   <div>
-    <div className="container" style={{ paddingTop: "25px", paddingBottom: "25px", paddingLeft: "25px" }}>
+    <div className="container" style={{ paddingTop: "25px", paddingLeft: "25px" }}>
       <div className="row">
         <div className="col-lg-4 col-sm-1">
           <h2 className={styles.resume_main_titles}>Education</h2>
@@ -37,7 +36,7 @@ const Resume = () => (
       </div>
 
     </div>
-    <hr className="line-resume"></hr>
+    <hr className={styles.line_resume}></hr>
     <div className="container" style={{ paddingTop: "25px", paddingBottom: "25px", paddingLeft: "25px" }}>
       <div className="row">
         <div className="col-lg-4 col-sm-1">
@@ -92,7 +91,7 @@ const Resume = () => (
         </div>
       </div>
     </div>
-    <hr className="line-resume"></hr>
+    <hr className={styles.line_resume}></hr>
   </div>
 );
 

@@ -2,21 +2,18 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
-import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Header from "./components/Header/Header";
-import "animate.css";
 
 
 function App() {
 
   return (
     <div className="App">
-      <section>
+      <section id="header">
         <Header></Header>
       </section>
       <section id="about" className="about-section">
