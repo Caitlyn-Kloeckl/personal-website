@@ -1,17 +1,16 @@
-.header_background{
-    background-image: url('../../north-shore.jpg');
-    background-size: cover ;
-
+.header_background {
+    background-image: url("../../north-shore.jpg");
+    background-size: cover;
+    background-position: right bottom;
 }
-
 
 .title_section {
     background-color: transparent;
-    min-height: 70vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 100px;
     /* justify-content: center; */
     font-size: calc(10px + 2vmin);
     color: black;
@@ -29,10 +28,7 @@
 .navbar_bar {
     padding-bottom: 50px;
     padding-top: 20px;
-    background-image: 
-    linear-gradient(to top, 
-    rgba(255,255,255, 0), 
-    rgba(128, 128, 128, 0.466) 100%);;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0.664) 100%);
 }
 
 .navbar_text {

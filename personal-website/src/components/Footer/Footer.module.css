@@ -1,0 +1,12 @@
+.Footer {
+    /* min-height: 80vh; */
+    background-image: url("../../sunset.jpg");
+    background-size: cover;
+    background-position: right bottom;
+    background-color: aliceblue;
+}
+
+.footer_gradient {
+    min-height: 90vh;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), #5e5e5e 100%);
+}
