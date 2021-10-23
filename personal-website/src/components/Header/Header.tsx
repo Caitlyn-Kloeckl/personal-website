@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import styles from './Header.module.css';
 
 const Header = () => (
-  <div className={styles.header_background}>
+  <div id="home" className={styles.header_background}>
     <Navbar className={styles.navbar_bar}>
       <Container className={styles.navbar}>
         <Nav>
@@ -25,7 +25,7 @@ const Header = () => (
         </Nav>
       </Container>
     </Navbar>
-    <header id="home" className={styles.title_section}>
+    <header className={styles.title_section}>
       <h1 className={styles.main_title}>Caitlyn Kloeckl</h1>
       <h4>Software Engineer, Physics Major, Photographer, Outdoor Enthusiast. </h4>
       <hr className="line"></hr>
